@@ -1,5 +1,5 @@
-$wallpaperUrl = "https://wallpapers.com/images/hd/fbi-0sysysu1oomps69n.jpg"
-$tempFilePath = "$env:TEMP\wallpaper.jpg"
+$wallpaperUrl = "https://raw.githubusercontent.com/FlipMeOff/special-octo-chainsaw/main/imgs/sO6Uj8.png"
+$tempFilePath = "$env:TEMP\wallpaper.png"
 Invoke-WebRequest -Uri $wallpaperUrl -OutFile $tempFilePath
 Set-ItemProperty -Path "HKCU:\Control Panel\Desktop" -Name WallpaperStyle -Value 10
 Add-Type -TypeDefinition @"
